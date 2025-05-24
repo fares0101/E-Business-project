@@ -37,7 +37,7 @@
 
 1. استنساخ المستودع:
 ```
-git clone https://github.com/yourusername/egyptian-ecommerce.git
+git clone https://github.com/fares0101/E-Business-project
 cd egyptian-ecommerce
 ```
 
@@ -119,6 +119,6 @@ egyptian-ecommerce/
 
 ## الاتصال
 
-اسمك - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+farse rashad - [@your_linkedin](https://www.linkedin.com/in/fares-rashad-14baba226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) - rashadfares608@gmail.com
 
-رابط المشروع: [https://github.com/yourusername/egyptian-ecommerce](https://github.com/yourusername/egyptian-ecommerce) 
+رابط المشروع: [https://github.com/fares0101/E-Business-project](https://github.com/fares0101/E-Business-project) 
