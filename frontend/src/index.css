@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: rtl;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+/* Custom styles for Egyptian E-commerce */
+:root {
+    --primary-color: #e74c3c;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+    --light-bg: #f8f9fa;
+    --dark-bg: #343a40;
+}
+
+.navbar {
+    background-color: var(--dark-bg);
+    color: white;
+}
+
+.product-card {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.price {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.currency {
+    font-size: 0.8rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.footer {
+    background-color: var(--dark-bg);
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+/* Admin panel styles */
+.admin-panel {
+    padding: 20px;
+}
+
+.admin-panel h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.admin-panel form {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--light-bg);
+    border-radius: 5px;
+}
+
+.admin-panel .form-group {
+    margin-bottom: 15px;
+}
+
+/* Cart styles */
+.cart-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.empty-cart {
+    text-align: center;
+    padding: 50px;
+    background-color: var(--light-bg);
+    border-radius: 5px;
+}
+
+/* Product details page */
+.product-details {
+    padding: 20px 0;
+}
+
+.product-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details h2 {
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+
+.product-details .price {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.product-details .description {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .product-card {
+        margin-bottom: 15px;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
